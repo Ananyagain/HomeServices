@@ -100,15 +100,16 @@ if($_SESSION['is_login']){
         </td>
       </tr>
       <tr>
-        <td>Technician Name</td>
-        <td>Zahir Khan</td>
+        <td>Vendor Name</td>
+        <!-- <td>Zahir Khan</td> -->
+        <?php if(isset($row['v_name'])) {echo $row['v_name']; } ?>
       </tr>
       <tr>
         <td>Customer Sign</td>
         <td></td>
       </tr>
       <tr>
-        <td>Technician Sign</td>
+        <td>Vendor Sign</td>
         <td></td>
       </tr>
     </tbody>

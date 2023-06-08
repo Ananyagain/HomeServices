@@ -97,7 +97,7 @@ session_start();
    <tr>
     <td>Vendor Name</td>
     <td>
-     <?php if(isset($row['assign_tech'])) {echo $row['assign_tech']; }?>
+     <?php if(isset($row['v_name'])) {echo $row['v_name']; }?>
     </td>
    </tr>
    <tr>

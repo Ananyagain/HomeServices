@@ -1,3 +1,4 @@
+<html>
 <?php
 define('TITLE', 'Success');
 include('includes/header.php'); 
@@ -54,3 +55,4 @@ if($result->num_rows == 1){
 include('includes/footer.php'); 
 $conn->close();
 ?>
+</html>

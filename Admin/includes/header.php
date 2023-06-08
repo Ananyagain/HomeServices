@@ -49,12 +49,12 @@
         Requests
        </a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
        <a class="nav-link <?php if(PAGE == 'assets') { echo 'active'; } ?>" href="assets.php">
         <i class="fas fa-database"></i>
         Assets
        </a>
-      </li>
+      </li> -->
       <li class="nav-item">
        <a class="nav-link <?php if(PAGE == 'technician') { echo 'active'; } ?>" href="technician.php">
         <i class="fab fa-teamspeak"></i>
@@ -67,12 +67,12 @@
         Requester
        </a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
        <a class="nav-link <?php if(PAGE == 'sellreport') { echo 'active'; } ?>" href="soldproductreport.php">
         <i class="fas fa-table"></i>
         Sell Report
        </a>
-      </li>
+      </li> -->
       <li class="nav-item">
        <a class="nav-link <?php if(PAGE == 'workreport') { echo 'active'; } ?>" href="workreport.php">
         <i class="fas fa-table"></i>
